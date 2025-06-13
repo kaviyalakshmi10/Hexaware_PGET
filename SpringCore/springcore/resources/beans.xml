@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+                            >
+                            
+                 <bean id="p1" class="Mavenexample.springcore.Project">
+                 <property name="pId" value="101"/>
+    <property name="duration" value="one month"/>
+    <property name="cost" value="200000"/>
+   
+
+     
+</bean>    
+      <bean id="e1" class="Mavenexample.springcore.Employee">
+            <property name="empId" value="1"/>
+            <property name="name" value="Kavi"/>
+           <property name="salary" value="75000.0"/>
+            <property name="address">
+            <map>
+                <entry key="home" value="Chennai"/>
+                <entry key="office" value="Bangalore"/>
+            </map>
+        </property>
+        <property name="project" ref="p1"/>
+    </bean>   
+           
+                    </beans>
