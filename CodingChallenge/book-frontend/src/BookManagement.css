@@ -1,0 +1,108 @@
+.book-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.book-header h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.add-button {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-button:hover {
+  background-color: #135ca0;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.book-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+}
+
+.book-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.book-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.edit-button,
+.delete-button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #3e8e41;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+

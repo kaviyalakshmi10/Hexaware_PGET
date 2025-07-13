@@ -1,0 +1,35 @@
+.signup-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.signup-container h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2185d0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #1678c2;
+}
+.signup-container p {
+   margin-bottom: 25px;
+  color: #555;
+  font-size: 15px;
+  text-align: center;
+}
