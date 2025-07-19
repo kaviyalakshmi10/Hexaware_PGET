@@ -1,0 +1,8 @@
+.cont {
+  border: 2px solid blue;
+  color: pink;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
